@@ -6,8 +6,8 @@ let userdata = (e) => {
     let user = {
         image: document.getElementById("img").value,
         name: document.getElementById("name").value,
-        price: document.getElementById("price").value,
-        brand: document.getElementById("brand").value,
+        price: document.getElementById("Number").value,
+        brand: document.getElementById("category").value,
     }
 
     fetch(" http://localhost:3000/Mobile", {

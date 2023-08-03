@@ -1,11 +1,18 @@
 {
   "Mobile": [
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT999j9WCwRVAuRT9lPVmqxx9FRb7rC5ypX4A&usqp=CAU",
+      "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80",
       "name": "Redmi A2",
-      "price": "12999",
-      "brand": "realme",
+      "price": "12000",
+      "brand": "male",
       "id": 1
+    },
+    {
+      "image": "https://media.licdn.com/dms/image/D4D03AQESjsjap710JQ/profile-displayphoto-shrink_800_800/0/1680871779477?e=2147483647&v=beta&t=eBZngMeCUgsGdEvp3k5gGGHdPyOd2RkmA_g61deJis8",
+      "name": "Gaurav Ambaliya ",
+      "price": "21121",
+      "brand": "male",
+      "id": 2
     }
   ]
 }

@@ -1,148 +1,156 @@
-#ui{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-}
-form{
-    padding: 25px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.333);
-    text-align: center;
-    
-    border: 3px solid rgba(66, 135, 245) ;
-    border-radius: 10px;
-}
-form input{
-   display: block;
-   width: 90%;
-    margin: 10px 0px;
-    padding: 10px 20px;
+
+input{
+   
+    /* border:1px solid cadetblue; */
     outline: none;
-    color: white;
-    border-radius: 10px;
-    background-color:  rgba(66, 135, 245, 0.793);
-    border: 2px solid rgb(36, 114, 240);
 }
-input::placeholder{
-    color: white;
+#btns{
+    display: flex;
+    justify-content: space-around;
 }
-.profile{
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-    font-size: 50px;
-    line-height: 100px;
-    margin: 0 auto;
-    background-color: rgba(66, 135, 245);
-    color: white;
-}
-form h1{
-    color:  rgba(66, 135, 245);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-.submit{
-    display: block;
-    margin:  20px auto;
-    /* padding: 15px 30px; */
-    width: 120px;
-    border-radius: 10px;
-    font-size: 15px;
-    background-color: rgba(66, 135, 245);
-    color: white;
-    font-weight: bold;
-    transition: all 0.5s;
-    border: 1px solid rgba(66, 135, 245);
+
+#ui {
+   
+    display: grid;
     
+    grid-template-columns: repeat(5, 1fr);
+    /* background-image: url(images/cybersecurity-digital-information-technology-concept-polygon-binary-code-connected_371307-161.avif); */
 }
-.submit:hover{
-    background-color: transparent;
-    border: 1px solid rgba(66, 135, 245) ;
-    color: rgba(66, 135, 245);
+.div{
+    /* background-color: rgba(0, 0, 0, 0.268); */
+    text-align: center;
+    /* padding: 25px; */
+    margin: 0 auto;
+    margin:  10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+}
+.overlay{
+    background-color:rgba(0, 0, 0, 0.433);
+    height: 100%;
+    
+    margin: 0 auto;
+    padding: 50px;
+    z-index: 999 !important;
 }
 .container{
-    max-width: 500px;
+    width: 700px;
     margin: 0 auto;
 }
- img{
-    height: 200px;
-    margin: 10px;
+.form{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+   border-radius: 10px;
+   border: 2px solid black;
+   overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/business-concept-e-commerce-word-cloud-design-background-template-2GCA8M1.jpg);
+    
 }
-.maindiv{
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.333);
-    text-align: center;
-    padding: 10px;
-    border: 3px solid rgba(66, 135, 245) ;
+input{
+    padding: 5px 10px;
+    width: 95%;
+    margin: 10px 0px;
+    background-color:  rgba(255, 255, 255, 0.792);
+    border-color:  white;
     border-radius: 10px;
+    border-width: 3px;
+    color:black;
 }
-.maindiv h3{
-    color: rgba(66, 135, 245);
+input::placeholder{
+    color: black ;
 }
-.maindiv h3 sup{
-    color: rgba(66, 135, 245);
+img{
+    max-width: 100%;
+    height: 200px;
+    margin: 0px 50px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .update{
     display: inline-block;
     width: 95%;
-    background-color: rgba(66, 135, 245);
-    border: 1px solid rgba(66, 135, 245) ;
+    background-color:black;
     padding: 10px 0px;
     color: white;
    border: none;
    border-radius: 10px;
    margin: 10px 10px;
-   font-size: 15px;
-   font-weight: bold;
-   cursor: pointer;
-    transition: all 0.5s;
+
 }
-.update:hover{
-    background-color: transparent;
-    border: 1px solid rgba(66, 135, 245) ;
-    color: rgba(66, 135, 245);
+.btn{
+    padding: 10px 25px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    color: black;
+   
 }
-#btns{
-    display: flex;
-    justify-content: space-around;
-    margin: 15px;
+.btn::placeholder{
+    color: black;
+}
+p{
+    font-weight: 700;
+    font-size: 20px;
+}
+h3{
+    font-weight: 900;
+    font-size: 25px;
+    
 }
 #btns button{
     padding: 10px 20px;
-    background-color:  rgba(66, 135, 245);
+    margin: 10px auto;
+    display: block;
+    background-color:black;
     color: white;
-    transition: all 0.5s;
     border-radius: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    border-color:  rgba(66, 135, 245);
-}
-#btns button:hover{
-    background-color: transparent;
-    border: 1px solid rgba(66, 135, 245) ;
-    color: rgba(66, 135, 245);
-}
-.cardbody{
-    border: 1px solid rgba(66, 135, 245);
-    border-radius: 10px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    border: 0px ;
 }
 .search input{
     width: 50%;
-    margin: 0 auto;
     padding: 10px 20px;
-    outline: none;
+    background-color: black;
     color: white;
+}
+.search input::placeholder{
+    color: white;
+}
+.search button{
+    padding: 10px 20px;
     border-radius: 10px;
-    background-color:  rgba(66, 135, 245, 0.793);
-    border: 2px solid rgb(36, 114, 240);
+    background-color: black;
+    color: white;
 }
 .search{
     text-align: center;
 }
-.search button{
-    padding: 10px 20px;
-    outline: none;
+h1{
+    text-align: center;
     color: white;
-    border-radius: 10px;
-    background-color:  rgba(66, 135, 245, 0.793);
-    border: 2px solid rgb(36, 114, 240);
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width:575px){
+    #output{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width:575px) and (max-width:767px) {
+    #output{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    #output{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
